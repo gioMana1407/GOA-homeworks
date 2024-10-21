@@ -7,5 +7,5 @@ for i in "name":
 age = int(input("age"))
 if age > 10:
     print("შენ ხარ 10 წლის ზემოთ")
-if age < 10:
+elif age < 10:
     print("false")
