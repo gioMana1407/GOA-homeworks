@@ -26,9 +26,21 @@
 #     if i > 0:
 #         print(i)
 
-user = int(input("enter number"))
-while user < 0: 
-    user = int(input("enter positive number"))
+# user = int(input("enter number"))
+# while user < 0: 
+#     user = int(input("enter positive number"))
+
+
+array = ["  *                *","  **              **","  ***            ***","  ****          ****","  *****        *****","  ******      ******","  *******    *******","  ********  ********","  ******************"]
+print(array[0])
+print(array[1])
+print(array[2])
+print(array[3])
+print(array[4])
+print(array[5])
+print(array[6])
+print(array[7])
+print(array[8])
 
 
 
