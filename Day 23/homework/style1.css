@@ -1,0 +1,44 @@
+.tb-1,th,tr {
+    border: 1px solid black;
+}
+
+.th-1 {
+    width: 27%;
+    text-align: start;
+}
+.tb-1{
+    width: 30%;
+}
+.th-table {
+    text-align: start;
+    
+}
+.th-table2{
+    text-align: start;
+}
+.divi{
+    text-align: start;
+}
+
+.table-2 {
+    width: 20%; 
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.th-1,.td-1 {
+    border: 1px solid black;
+    padding: 5px; 
+    font-size: 14px; 
+  }
+
+  
+
+  .pp1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.dd,.ddd,.dddd{
+    border: 1px solid black;
+}

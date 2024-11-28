@@ -1,0 +1,13 @@
+p {
+    color: aquamarine;
+}
+.d-1 {
+    text-align: center;
+}
+
+.d-2 {
+    text-align: end;
+}
+.d-3 {
+    text-align: start;
+}
