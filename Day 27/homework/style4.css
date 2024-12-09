@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+    font-style: oblique;
+    color: rgb(78, 88, 146);
+    color: hsl(14, 12, 24);
+    background-color: rgb(242, 113, 3);
+}
+p {
+    font-family: fantasy;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: inherit;
+    color: rgb(57, 24, 208);
+    color: hsl(1, 1, 1);
+    background-color: rgb(5, 5, 45);
+}

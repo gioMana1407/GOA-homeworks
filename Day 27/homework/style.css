@@ -1,0 +1,13 @@
+.h-1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: inherit;
+    color: chartreuse;
+    background-color: rgb(46, 78, 230);
+}
+.p-1 {
+    font-family: fantasy;
+    font-weight: 500;
+    font-style: unset;
+    color: hsl(124, 2, 56);
+}

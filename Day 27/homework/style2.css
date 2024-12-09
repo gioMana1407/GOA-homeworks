@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 400;
+    font-style: oblique;
+    color: hsl(33, 22, 11);
+    color: brown;
+    background-color: rgb(1, 11, 111);
+    text-align: center;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    font-style: calc(21);
+    color: hsl(44, 55, 66);
+    color: coral;
+    background-color: floralwhite;
+}

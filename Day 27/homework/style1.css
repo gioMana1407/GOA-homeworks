@@ -1,0 +1,15 @@
+h1 {
+    font-family: unset;
+    font-size: x-large;
+    font-weight: 600;
+    font-style: initial;
+    color: rgb(141, 222, 78);
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    font-style: inherit;
+    color: hsl(200, 123, 100);
+}
