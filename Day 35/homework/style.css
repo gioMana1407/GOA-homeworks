@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./assets/images/rhino.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    color: azure;
+}
+div h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    color: blanchedalmond;
+}
+.body-1 {
+    background-image: url(./assets/images/alika.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.alika h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.body-2 {
+    background-image: url(./assets/images/კოდალა.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.kodala h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+.body-3 {
+    background-image: url(./assets/images/porsche.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.porsche h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px
+}
+.porsche p {
+    color: crimson;
+}
+.body-4 {
+    background-image: url(./assets/images/abizianka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./assets/images/mr-robot.png),
+    url(./assets/images/mr.robot.png);
+    background-size: 50%, 50% cover;
+    background-repeat: no-repeat;
+    background-position: left,right;
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    color: crimson;
+}
+h1 {
+    color: crimson;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    background-image: url(./assets/images/eliot.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid black;
+}
