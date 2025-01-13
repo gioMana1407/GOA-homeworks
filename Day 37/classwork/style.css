@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: 
+    linear-gradient(67deg, rgba(0, 17, 200, 0.6), rgba(17, 25,24 , 0.6) ),
+    linear-gradient(56deg,rgba(56,45,67, 0.7), rgba(56,154,145, 0.6) );
+    height: 100vh;
+}
+.class {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 12px 5px;
+
+}
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+}
