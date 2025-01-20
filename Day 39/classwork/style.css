@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    list-style-type: georgian;
+    color: red;
+    margin-top: 10%;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.home {
+    list-style-image: url(./assets/images/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+}
+.about,.about2,.about3 {
+    list-style-image: url(./assets/images/refresh_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+}
+body {
+    background: rgb(86,86,236);
+    background: radial-gradient(circle, rgba(86,86,236,0.9332107843137255) 25%, rgba(67,82,135,0.9023984593837535) 53%, rgba(41,70,93,0.9051995798319328) 66%);
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+p {
+    color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
