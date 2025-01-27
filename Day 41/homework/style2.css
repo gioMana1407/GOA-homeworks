@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+table {
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 5px solid rgb(255, 127, 8);
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 50px;
+}
+tr:nth-child(1n){
+    background-color: antiquewhite;
+}
+th {
+    background-color: brown;
+}
+tr:nth-child(2n) {
+    background-color: rgb(201, 96, 96);
+
+}
+tr:nth-child(2) {
+    background-color: brown;
+}
+

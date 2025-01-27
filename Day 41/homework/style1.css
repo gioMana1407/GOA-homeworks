@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(50,126,171);
+    background: linear-gradient(90deg, rgba(50,126,171,1) 45%, rgba(144,76,219,1) 57%);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 250px;
+    margin-top: 200px;
+}
+tr:first-child {
+    background-color: rgb(54, 54, 122);
+}
+td {
+    background-color: rgb(136, 123, 150);
+    color: white;
+    border: none;
+}
+td:nth-child(2) {
+    background-color: rgb(160, 164, 170);
+}

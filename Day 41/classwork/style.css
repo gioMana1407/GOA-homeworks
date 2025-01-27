@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(86,86,236);
+    background: radial-gradient(circle, rgba(86,86,236,0.9332107843137255) 25%, rgba(67,82,135,0.9023984593837535) 53%, rgba(41,70,93,0.9051995798319328) 66%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-size: larger;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+#link:link {
+    color: white;
+}
+#visited:visited{
+    color: darkmagenta;
+}
+#active:active {
+    color: white;
+    font-size: larger;
+}
+#hover:hover {
+    color: white;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+p{
+    color: aliceblue;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 500px;
+    color: whitesmoke;
+    border-collapse: collapse;
+    border: 2px dotted red;
+}
+th{
+    text-align: start;
+    border: 2px dotted red;
+    
+}
+td{
+    border: 2px dotted red;
+}
+tr:first-child {
+    background-color: purple;
+}
+tr:last-child{
+    background-color: beige;
+    color: black;
+}
+tr:nth-child(2){
+    background-color: white;
+    color: black;
+}
+tr:nth-child(3){
+    background-color: bisque;
+    color: black;
+}
+td{
+    padding: 3px 30px 3px 3px;
+}
+tr:not(:first-child):hover{
+    background-color: khaki;
+    cursor: copy;
+}

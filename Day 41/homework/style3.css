@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+img {
+    margin-top: 100px;
+    margin-left: 125px;
+    background: rgb(98,181,230);
+    background: linear-gradient(132deg, rgba(98,181,230,1) 18%, rgba(166,45,226,1) 50%, rgba(231,59,201,1) 75%);
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.basic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    padding-top: 20px;
+    color: white;
+    font-size: larger;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+.basic-div{
+    background: rgb(98,181,230);
+    background: linear-gradient(132deg, rgba(98,181,230,1) 18%, rgba(166,45,226,1) 50%, rgba(231,59,201,1) 75%);
+    height: 97vh;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.standard-div {
+    background: rgb(198,79,191);
+    background: linear-gradient(150deg, rgba(198,79,191,1) 18%, rgba(247,116,158,1) 41%, rgba(232,121,57,1) 69%, rgba(251,203,129,1) 94%);
+    width: 350px;
+    height: 97vh;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.premium-div {
+    background: rgb(97,54,156);
+    background: linear-gradient(150deg, rgba(97,54,156,1) 18%, rgba(68,171,228,1) 41%, rgba(92,187,138,1) 69%, rgba(131,190,94,1) 94%);
+    width: 350px;
+    height: 97vh;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 5px ;
+}
+.amount-25 {
+    margin-left: 100px;
+    font-size: 70px;
+    color: white;
+}
+.GB-10 {
+    margin-left: 110px;
+    color: white;
+}
+.domain-3 {
+    margin-left: 100px;
+    color: white;
+}
+.email-20 {
+    margin-left: 92px;
+    color: white;
+    font-size: larger;
+}
+.live-support{
+    margin-left: 110px;
+    color: white;
+}
+.button-1 {
+   margin-left: 100px;
+   margin-top: 70px;
+   width: 110px;
+   padding: 10px 10px;
+   border-radius: 25px;
+   border: none;
+}
+.standard {
+    margin-left: 115px;
+    margin-top: 15px;
+    color: white;
+}
+.email-unlimited {
+    color: white;
+}
+.button-2 {
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 110px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: none;
+}
+.GB-unlimited {
+    margin-left: 80px;
+    color: white;
+    font-size: large;
+}
+.button-3 {
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 110px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: none;
+}
+.premium {
+    margin-left: 115px;
+    margin-top: 15px;
+    color: white;
+}
