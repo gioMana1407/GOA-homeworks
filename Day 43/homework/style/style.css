@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(white, gray);
+    height: 100vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+p{  
+    color: rgb(24, 20, 20);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    
+}
