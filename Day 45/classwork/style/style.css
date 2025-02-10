@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    ;
+}
+body {
+    background: rgb(49,142,94);
+    background: linear-gradient(333deg, rgba(49,142,94,1) 48%, rgba(86,210,107,1) 69%, rgba(78,122,51,1) 94%);
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-direction: column;
+}
+div {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    font-size: xx-large;
+    border: 2px dotted black;
+
+}
+.p3{
+    display: flex;
+    
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(blue,cyan);
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: start;
+    height: 100vh;
+    justify-content: end;
+}
