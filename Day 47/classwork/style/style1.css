@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    border-radius: 15px;
+    color: white;
+}
+#box1{
+    background-color: aqua;
+    align-self: end;
+    margin-top: -150px;
+}
+#box2{
+    background-color: cadetblue;
+    order: -1;
+}
+#box3{
+    background-color: chartreuse;
+    align-self: center;
+
+}
+#box4{
+    background-color: tomato;
+    align-self: end;
+}
+
+    
+
+.container{
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+}

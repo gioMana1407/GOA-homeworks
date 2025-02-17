@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+#box1{
+    background-color: blueviolet;
+}
+#box2{
+    background-color: chartreuse;
+}
+#box3{
+    background-color: coral;
+}
+#box4{
+    background-color: crimson;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    
+}
