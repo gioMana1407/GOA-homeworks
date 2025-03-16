@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 2s;
+    animation-name: red-blue;
+    animation-duration: 2s;
+}
+@keyframes red-blue{
+    from{background-color: red;}
+    to{background-color: blue;}
+}
+
+.ball{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 1s;
+    transition: 0.2s;
+    animation-iteration-count: 10;
+}
+@keyframes bounce{
+    from{}
+    
+    to{
+        transform: translateY(-100px);
+    }
+}
+.rotation{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: gadatrualeba;
+    animation-duration: 3s;
+}
+@keyframes gadatrualeba{
+    from{}
+    to{transform: rotate(360deg);}
+}
+.hello{
+    margin-left: 10%;
+    animation-name: p-color;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+
+}
+@keyframes p-color{
+    from{color: green;}
+    to{color: cyan;}
+}
+.size-cube{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: size;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    transition: 2s;
+}
+@keyframes size{
+    from{}
+    to{transform: scale(2);}
+}

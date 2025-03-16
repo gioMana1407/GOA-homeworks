@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+.neutral-black{
+    color: hsl(212, 21%, 14%);
+}
+.neutral-grey{
+    color: hsl(228, 12%, 48%); 
+}
+.neutral-cream{
+   color: hsl(30, 38%, 92%); 
+}
+.neutral-white{
+    color: hsl(0, 0%, 100%);
+}
+.primary-green-500{
+    background-color: hsl(158, 36%, 37%);
+}
+.primary-green-700{
+    background-color: hsl(158, 42%, 18%);
+}
+.font-size-p{
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+.align-center{
+    align-content: center;
+}
+body{
+    background-color: beige;
+}
+.border-radius{
+    border-radius: 8px;
+}
+.width-height{
+    width: 500px;
+    height: 300px;
+}
+.background-color{
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+.right-side{
+    padding-left: 20px;
+}
+.perfume{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.p{
+    margin-right: 4px;
+}
+.e{
+    margin-right: 4px;
+}
+.r{
+    margin-right: 4px;
+}
+.f{
+    margin-right: 4px;
+}
+.u{
+    margin-right: 4px;
+}
+.m{
+    margin-right: 4px;
+}
+.e2{
+    margin-right: 4px;
+}
+.h11{
+    font-size: xx-large;
+}
+.text{
+    margin-top: 15px;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.button{
+    width: 150px;
+    margin-left: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 11px;
+}
+.button:hover{
+    background-color: hsl(158, 42%, 18%);
+}
+.current-price{
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+}
+.old-price{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: small;
+}

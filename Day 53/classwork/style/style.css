@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(136, 80, 189);
+    font-size: larger;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    transition-timing-function: ease;
+    color: white;
+}
+div:hover{
+    transform: rotate(2880deg) translatex(40px) scaley(0.3);
+    border-radius: 50%; 
+    background-color: blue;
+}
+div:active{
+    transform: rotatex(180deg);
+}
+

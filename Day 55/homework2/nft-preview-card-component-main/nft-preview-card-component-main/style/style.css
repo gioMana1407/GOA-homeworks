@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.parent{
+    height: 550px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid hsl(215, 32%, 27%);
+    background-color: hsl(216, 50%, 16%);
+}
+#cube{
+    padding: 20px;
+    border-radius: 10px;
+}
+h3{
+    color: white;
+    margin: 20px;
+}
+p{
+    margin: 20px;
+    color: hsl(215, 51%, 70%);
+}
+.time-left{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.days{
+    color: hsl(215, 51%, 70%);
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+#days{
+    margin-right: 4px;
+    
+}
+#eth{
+    margin-right: 4px;
+}
+.user{
+    display: flex;
+    margin: 20px;
+    margin-top: 30px;
+}
+.foto{
+    background-image: url(./image-avatar.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+.jules{
+    align-content: center;
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    margin: 20px;
+    color: hsl(215, 51%, 70%);
+}
+.name{
+    color: white;
+}
