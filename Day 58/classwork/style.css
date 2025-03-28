@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    display: grid;
+    width: 70%;
+    height: 50%;
+    border: 2px solid red;
+    gap: 10px;
+}
+.parent div{
+    background-color: rgb(44, 194, 44);
+    width: 50px;
+    height: 50px;
+}
+@media(max-width: 700px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+    }
+}
+@media(max-width: 450px){
+    .parent{
+        display: flex;
+    }
+}

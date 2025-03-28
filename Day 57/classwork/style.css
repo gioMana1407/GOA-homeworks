@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.parent div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+.john{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.apWiCrbN2HwHvwleeyhh9QHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: left;
+}
+.jack{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.B6A96NE43Uu4JiFFRMMATgHaHa&pid=Api&P=0&h=220);
+    background-size: cover;
+}
+.ben{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.I79aq-v4zjY0V-9d5xUeVAHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.sawyer{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.QAc6Hv_O6dAC1bvwREgCTAHaFj&pid=Api&P=0&h=220);
+    background-size: cover;
+}
+.kate{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.037PhvqgzvvfoM6tPGkTegHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+}
+.hugo{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.0JjFp9Sq3XnP0Or4lYUzAQHaEX&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: left;
+}
+.desmond{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.f2LBmkKVmw1paNoA58qxzwAAAA&pid=Api&P=0&h=220);
+    background-size: cover;
+}
+.jin{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.YMXpRWYxSEcveCH4CRoV8wAAAA&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+}
+.sayid{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.lgxzVAKs-0ooJcuk7yX5WQHaFj&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+}
+.parent div:hover{
+    cursor: pointer;
+}

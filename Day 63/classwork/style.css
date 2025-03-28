@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+    gap: 22.27px;
+    height: 36.49px;
+}
+#logo{
+    padding: 11.14px 
+    100.23px 
+    11.14px 
+    100.23px;
+    gap: 43.85px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16.71px;
+    list-style-type: none;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+button{
+    margin-left: 30%;
+    padding: 9.74px 22.27px;
+    align-items: center;
+    background-color: rgba(76, 175, 79, 1);
+    width: 133.25px;
+    border: none;
+    border-radius: 2.78px;
+}
+#right{
+    width: 10px;
+    position: relative;
+    position: absolute;
+    right: 8%;
+    top: 3.5%;
+    width: 11.14px;
+    height: 11.14px;
+}
+.home{
+    padding-right: 20px;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Inconsolata:wght@200..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.parent{
+    background-color: white;
+    height: 370px; 
+    border-radius: 10px;
+}
+#victora{
+    border-radius: 50%;
+    position: absolute;
+    position: relative;
+    left: 35%;
+    bottom: 50px;
+    border: 5px solid white;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    gap: 10px;
+}
+.london{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+.stats p{
+    padding: 5px;
+}
+.number{
+    font-size: larger;
+}
+.not-num{
+    font-size: small;
+    
+}
+#bg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.num-26,.london,.not-num{
+    color: hsl(0, 0%, 59%);
+}
+#top{
+    position: absolute;
+    position: relative;
+    z-index: -1;
+    bottom: 450px;
+    left: 150px;
+}
+#bottom{
+    position: absolute;
+    position: relative;
+    z-index: -1;
+    top: 450px;
+    right: 150px;
+}
+@media(max-width:1100px){
+    body{
+        padding: 50% 50%;
+        width: 100vw;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .parent{
+       margin-left: 40%;
+       max-width: fit-content;
+    }
+}
+@media(max-width: 500px){
+    body{
+        padding: 50% 50%;
+        width: 100vw;
+       
+    }
+    .parent{
+            margin-left: 40%;
+            align-items: center;
+    }
+}

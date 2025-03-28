@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: gainsboro;
+    background-color: beige;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr ;
+    width: 60%;
+    height: 500px;
+    
+}
+.parent-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.join{
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(218, 22%, 67%);
+}
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10%;
+}
+.subscription h6{
+    padding-top: 10%;
+    color: white;
+}
+.subscription .month{
+    padding-top: 5%;
+}
+.subscription p{
+    margin-top: -3%;
+    font-size: larger;
+}
+.d-29{
+    font-size: xx-large;
+    color: white;
+    padding-right: 3%;
+}
+button{
+    margin-top: 10%;
+    width: 70%;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+.why-us{
+    background-color: rgb(133, 226, 226);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.why-us div{
+    padding-top: 8%;
+    margin-right: 50%;
+    margin-left: 10%;
+}
+.why-us h6{
+    padding-top: 10%;
+    margin-right: 68%;
+    color: white;
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+.join h1{
+    color: hsl(179, 62%, 43%);
+    font-size: x-large;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.day-30{
+    margin-left: 5%;
+    color: hsl(71, 73%, 54%);
+}
+.text{
+    margin-left: 5%;
+    font-size: larger;
+}

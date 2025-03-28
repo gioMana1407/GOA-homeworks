@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Inconsolata:wght@200..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+.parent{
+    display: flex;
+    width: 70%;
+    height: 70%;
+}
+.sedan{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color:hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.suv{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+p{
+    padding: 10px 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h3{
+    padding-left:  40px;
+    font-size: xx-large;
+    margin-top: -40px;
+    color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+}
+img{
+    padding: 40px 40px;
+}
+button{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 5px;
+}
+.sedan button{
+    color: hsl(31, 77%, 52%);
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury button{
+    color: hsl(179, 100%, 13%);
+}
+@media(max-width: 950px){
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        
+    }
+    button{
+        margin-bottom: 30px;
+    }
+    p{
+        line-height: 25px;
+    }
+}
+@media(max-width: 500px){
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        
+    }
+    button{
+        margin-bottom: 30px;
+    }
+    p{
+        line-height: 25px;
+    }
+}
+@media(max-width: 400px){
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+
+    }
+    button{
+        margin-bottom: 30px;
+    }
+    p{
+        line-height: 25px;
+    }
+}
