@@ -83,12 +83,11 @@ body{
 }
 @media(max-width: 500px){
     body{
-        padding: 50% 50%;
+        
         width: 100vw;
-       
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
-    .parent{
-            margin-left: 40%;
-            align-items: center;
-    }
+    
 }
